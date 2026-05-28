@@ -30,6 +30,7 @@ QuickFile-Go 是一个基于 Go 后端和 LuCI 前端的 OpenWrt 文件管理插
 - 真正实时终端：本地内置 xterm.js + 后端 `/term` WebSocket + Linux PTY
 - 终端开关配置化
 - 监听地址 / 监听端口配置化
+- 支持后台任务
 - 最大上传大小 / 最大编辑大小配置化，`0` 表示不限制
 - 诊断信息接口和 LuCI 设置区
 - 当前目录搜索
