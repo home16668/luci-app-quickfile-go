@@ -156,7 +156,7 @@ rm -f /tmp/luci-indexcache /tmp/luci-modulecache/* 2>/dev/null
 
 ## 许可证
 
-Apache License 2.0。详见 `LICENSE`。
+Apache License 3.0。详见 `LICENSE`。
 
 ## 版本说明
 
