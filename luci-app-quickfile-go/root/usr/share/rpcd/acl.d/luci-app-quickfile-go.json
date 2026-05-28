@@ -1,0 +1,15 @@
+{
+	"luci-app-quickfile-go": {
+		"description": "Grant access to QuickFile-Go LuCI view",
+		"read": {
+			"ubus": {
+				"session": [ "access" ]
+			}
+		},
+		"write": {
+			"ubus": {
+				"session": [ "access" ]
+			}
+		}
+	}
+}

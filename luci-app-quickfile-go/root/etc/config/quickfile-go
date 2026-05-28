@@ -1,0 +1,9 @@
+config quickfile-go 'main'
+	option enabled '1'
+	# auto = detect network.lan.ipaddr at service start; safer than 0.0.0.0.
+	option listen_addr 'auto'
+	option listen_port '8989'
+	option enable_terminal '1'
+	# 0 means unlimited. Values are in MiB.
+	option max_upload_mb '0'
+	option max_edit_mb '0'
