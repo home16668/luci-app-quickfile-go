@@ -69,6 +69,7 @@ QuickFile-Go 不使用 nginx 反代，因此 API 端口 `8989` 会在路由器�
 - 保持 LuCI 登录密码强度。
 - 不需要终端功能时，把 `enable_terminal` 设置为 `0`。
 - 若把监听端口从 `8989` 改成其他端口，当前浏览器会记录新端口；其他浏览器首次访问时仍可能需要在 URL 后加 `?qfport=新端口`。
+- 只在openwrt 25.12.2测试过，其它版本请自行测试
 
 <img width="1547" height="880" alt="image" src="https://github.com/user-attachments/assets/741449e3-2595-4c16-acbf-c515d9d883a6" />
 <img width="1641" height="767" alt="image" src="https://github.com/user-attachments/assets/e00d9cda-18a1-47d4-a73f-2312aaa392a0" />
