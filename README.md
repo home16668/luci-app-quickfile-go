@@ -5,7 +5,7 @@ QuickFile-Go 是一个基于 Go 后端和 LuCI 前端的 OpenWrt 文件管理插
 ## 特点
 
 - 不依赖 nginx 代理。
-- 不依赖原版 quickfile 预编译后端。
+- 不依赖原版 quickfile 预编译后端，完全开源。
 - Go 后端源码在 `src/main.go`，LuCI 前端源码在 `htdocs/luci-static/resources/view/quickfile-go.js`。
 - 后端默认自动监听 `lan:8989`，浏览器从 LuCI 页面直接请求 Go API。
 - 后端会校验 LuCI session，未登录 LuCI 时不能调用 API。
